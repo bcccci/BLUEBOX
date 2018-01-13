@@ -1,0 +1,178 @@
+/*公共样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-family: Tahoma;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 30px;
+    color: #626262;
+}
+.center{
+    width: 1002px;
+    margin: 0 auto;
+}
+input, button{
+    outline: none;
+}
+/*header开始*/
+.header{
+    overflow: hidden;
+    height: 120px;
+}
+.header .center{
+    height: 50px;
+    margin: 35px auto;
+}
+.logo{
+    display: block;
+    float: left;
+    width: 189px;
+    height: 50px;
+}
+.search{
+    float: right;
+    margin: 10px 0;
+}
+.search input{
+    width: 80px;
+    height: 20px;
+    border: none;
+    padding: 5px 10px;
+    background: #f1f3f6;
+    color: #a3a3a3;
+}
+.search button{
+    display: block;
+    float: right;
+    width: 32px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #f1f3f6 url("../img/spirit.png") no-repeat 0 0;
+}
+.nav{
+    float: right;
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #626262;
+}
+.nav ul{
+    height: 30px;
+}
+.nav li{
+    float: left;
+}
+.nav li:after{
+    content: "|";
+    padding: 0 25px;
+}
+.nav .last:after{
+    content: "";
+    padding: 15px;
+}
+.nav li a:hover{
+    color: #00aeff;
+}
+/*header结束*/
+
+/*footer部分开始*/
+.footer{
+    height: 176px;
+    background: #31333e;
+    color: #e2e7ed;
+}
+.footer .center{
+    height: 176px;
+}
+.footer-text{
+    float: left;
+    width: 500px;
+    height: 86px;
+    margin: 45px 0;
+}
+.footer-text ul{
+    height: 13px;
+    line-height: 13px;
+}
+.footer-text li{
+    float: left;
+}
+.footer-text a{
+    font-size: 15px;
+    line-height: 15px;
+    color: #e2e7ed;
+}
+.footer-text a:hover{
+    color: #00aeff;
+}
+.footer-text li:after{
+    content: "|";
+    margin: 0 15px;
+}
+.footer-text .last:after{
+    content: "";
+    margin: 0;
+}
+.big-text{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.small-text{
+    display: block;
+    font-size: 12px;
+    margin-top: 30px;
+    height: 15px;
+}
+.footer-ul{
+    float: right;
+    width: 280px;
+    height: 40px;
+    margin: 45px 0 0 0;
+}
+.footer-ul li{
+    float: left;
+    height: 40px;
+}
+.footer-ul span{
+    display: block;
+    float: left;
+    width: 8px;
+    height: 40px;
+}
+.li-a{
+    background: url("../img/spirit.png") no-repeat -212px 0;
+}
+.li-b{
+    background: url("../img/spirit.png") no-repeat -258px 0;
+}
+.li-c{
+    background: url("../img/spirit.png") no-repeat -306px 0;
+}
+.li-d{
+    background: url("../img/spirit.png") no-repeat -354px 0;
+}
+.li-e{
+    background: url("../img/spirit.png") no-repeat -402px 0;
+}
+.li-f{
+    background: url("../img/spirit.png") no-repeat -450px 0;
+}
+.footer-ul a{
+    float: left;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+/*footer部分结束*/

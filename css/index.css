@@ -1,0 +1,164 @@
+/*content部分开始*/
+.content{
+    height: 460px;
+    background: #31333e;
+}
+.content .center{
+    position: relative;
+}
+.content ul{
+    width: 1002px;
+    height: 460px;
+}
+.content li a{
+    display: inline-block;
+    height: 460px;
+}
+.content li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1002px;
+    height: 460px;
+}
+.content .prev{
+    position: absolute;
+    top: 50%;
+    margin-top: -26px;
+    width: 30px;
+    height: 53px;
+    background: url("../img/spirit.png") no-repeat -73px 0;
+}
+.content .next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -26px;
+    width: 30px;
+    height: 53px;
+    background: url("../img/spirit.png") no-repeat -136px 0;
+}
+.content .prev a, .content .next a{
+    width: 30px;
+    height: 53px;
+}
+/*content部分结束*/
+
+/*more部分开始*/
+.more{
+    height: 492px;
+}
+.more ul{
+    width: 1002px;
+    height: 492px;
+}
+.more li{
+    float: left;
+    width: 290px;
+    height: 332px;
+    padding: 80px 22px;
+}
+.more li h2{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #626262;
+}
+.more li img{
+    width: 120px;
+    height: 101px;
+    margin: 16px 85px;
+}
+.more li p{
+    display: block;
+    width: 290px;
+    height: 126px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    color: #2a2e39;
+}
+.more li span{
+    display: block;
+    width: 290px;
+    height: 30px;
+    color: #00aeff;
+    line-height: 30px;
+    text-align: center;
+}
+/*more部分结束*/
+/*works部分开始*/
+.works{
+    height: 500px;
+    background: #e2e7ed;
+}
+.works .center{
+    height: 500px;
+}
+.works h2{
+    height: 70px;
+    line-height: 70px;
+}
+.works ul{
+    height: 400px;
+}
+.works li{
+    float: left;
+    width: 250.5px;
+    height: 200px;
+}
+.works li img{
+    width: 250.5px;
+    height: 200px;
+}
+/*works部分结束*/
+/*clients部分开始*/
+.clients{
+    height: 154px;
+}
+.clients .center{
+    position: relative;
+}
+.clients h2{
+    height: 54px;
+    line-height: 54px;
+}
+.clients-img{
+    overflow: hidden;
+    position: relative;
+    margin: 0 57px;
+    height: 100px;
+}
+.clients ul{
+    position: absolute;
+    top: 0;
+    width: 1776px;
+}
+.clients li{
+    float: left;
+    height: 100px;
+}
+.clients .prev{
+    position: absolute;
+    top: 76px;
+    left: 0;
+    width: 30px;
+    height: 50px;
+    background: url("../img/prev.png") no-repeat;
+}
+.clients .prev a, .clients .next a{
+    width: 30px;
+    height: 50px;
+}
+.clients .next{
+    position: absolute;
+    top: 76px;
+    right: 0;
+    width: 30px;
+    height: 50px;
+    background: url("../img/next.png") no-repeat;
+}
+.clients a{
+    display: inline-block;
+}
+/*clients部分结束*/
