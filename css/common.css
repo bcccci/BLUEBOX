@@ -81,6 +81,9 @@ input, button{
     content: "";
     padding: 15px;
 }
+.nav li a{
+    color: #626262;
+}
 .nav li a:hover{
     color: #00aeff;
 }

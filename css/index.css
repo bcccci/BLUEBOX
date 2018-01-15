@@ -82,9 +82,11 @@
     display: block;
     width: 290px;
     height: 30px;
-    color: #00aeff;
     line-height: 30px;
     text-align: center;
+}
+.more li span a{
+    color: #00aeff;
 }
 /*more部分结束*/
 /*works部分开始*/
